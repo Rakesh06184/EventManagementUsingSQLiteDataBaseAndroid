@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundimage"
+    android:id="@+id/layout"
+    tools:context="com.example.rakesh.eventmanagement.eventmanagement.AddEvent">
+    
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/white"
+        android:id="@+id/insert_name"
+        android:hint="@string/insertName"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/white"
+        android:id="@+id/insert_location"
+        android:hint="@string/insertLocation"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/white"
+        android:id="@+id/insert_details"
+        android:hint="@string/insertDetails"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/white"
+        android:id="@+id/insert_start_date"
+        android:hint="@string/insertStartDate"
+        android:drawableRight="@drawable/calendars"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/white"
+        android:id="@+id/insert_end_date"
+        android:hint="@string/insertEndDate"
+        android:drawableRight="@drawable/calendars"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/white"
+        android:id="@+id/insert_time"
+        android:hint="@string/insertTime"
+        android:drawableRight="@drawable/alarms"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       >
+    <Button
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:id="@+id/clear"
+        android:textSize="25sp"
+        android:textColor="@android:color/white"
+        android:background="#0000ff"
+        android:text="@string/clear"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp" />
+
+
+    <Button
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:id="@+id/save"
+        android:textSize="25sp"
+        android:textColor="@android:color/white"
+        android:background="#0000ff"
+        android:text="@string/save"
+        android:layout_alignTop="@+id/clear"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="30dp"
+        android:layout_marginEnd="30dp" />
+    </RelativeLayout>
+
+
+</LinearLayout>

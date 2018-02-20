@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="5dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:background="@android:color/white"
+        android:id="@+id/get_name"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:background="@android:color/white"
+        android:id="@+id/get_location"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:background="@android:color/white"
+        android:id="@+id/get_description"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:background="@android:color/white"
+        android:id="@+id/get_start_date"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:background="@android:color/white"
+        android:id="@+id/get_end_date"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:background="@android:color/white"
+        android:id="@+id/get_time"/>
+
+</LinearLayout>

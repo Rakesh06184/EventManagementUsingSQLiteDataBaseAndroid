@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">EventManagement</string>
+    <string name="welcome">Welcome</string>
+    <string name="insertEvent">Add Event</string>
+    <string name="getAllEvent">Show Event</string>
+    <string name="deleteEvent">Delete Event</string>
+    <string name="searchEvent">Search</string>
+    <string name="updateEvent">Update Event</string>
+    <string name="facebook">facebook</string>
+
+    <string name="insertName">Enter the Name</string>
+    <string name="insertLocation">Enter the Location</string>
+    <string name="insertDetails">Enter the Description</string>
+    <string name="insertStartDate">Select the Start Date</string>
+    <string name="insertEndDate">Select the End Date</string>
+    <string name="insertTime">Select the Time</string>
+
+    <string name="clear">Clear</string>
+    <string name="save">Save</string>
+
+
+    <string name="but_done">Done</string>
+    <string name="title_tab_start_date">Start Date</string>
+    <string name="ttile_tab_end_date">End Date</string>
+
+    <string name="ok">Ok</string>
+    <string name="welcome_to_event_management">Welcome to Event Management</string>
+
+    <string name="oldName">Old Name</string>
+    <string name="newName">New Name</string>
+
+    <string name="stop">Stop Alarm</string>
+
+
+</resources>

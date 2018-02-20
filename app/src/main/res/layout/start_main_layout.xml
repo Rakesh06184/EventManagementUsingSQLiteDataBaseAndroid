@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/appslayout"
+    tools:context="com.example.rakesh.eventmanagement.MainActivity">
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:layout_gravity="center"
+        android:paddingTop="5dp"
+        android:textSize="20sp"
+        android:background="#000080"
+        android:textColor="#FFFFFF"
+        android:id="@+id/insert_event"
+        android:text="@string/insertEvent"/>
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:paddingTop="5dp"
+        android:textSize="20sp"
+        android:background="#000080"
+        android:textColor="#FFFFFF"
+        android:onClick="getAllEvent"
+        android:id="@+id/get_all_event"
+        android:text="@string/getAllEvent"/>
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="5dp"
+        android:layout_marginTop="15dp"
+        android:textSize="20sp"
+        android:background="#000080"
+        android:textColor="#FFFFFF"
+        android:onClick="deleteEvent"
+        android:id="@+id/delete_event"
+        android:text="@string/deleteEvent"/>
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:paddingTop="5dp"
+        android:textSize="20sp"
+        android:background="#000080"
+        android:textColor="#FFFFFF"
+        android:onClick="updateEvent"
+        android:id="@+id/update_event"
+        android:text="@string/updateEvent"/>
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:paddingTop="5dp"
+        android:textSize="20sp"
+        android:background="#000080"
+        android:textColor="#FFFFFF"
+        android:onClick="facebbokProcess"
+        android:id="@+id/facebook"
+        android:text="@string/facebook"/>
+
+</LinearLayout>
+

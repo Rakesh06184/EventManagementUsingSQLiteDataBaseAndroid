@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:background="@drawable/backgroun"
+    tools:context="com.example.rakesh.eventmanagement.eventmanagement.UpdateEvent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/oldName"
+        android:layout_marginTop="15dp"
+        android:id="@+id/old_text_name"
+        android:textSize="15sp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/old_edit_name"
+        android:hint="Enter the old name"
+        android:background="@android:color/white"
+        android:layout_alignTop="@+id/old_text_name"
+        android:layout_alignLeft="@+id/new_edit_name"
+        android:layout_alignStart="@+id/new_edit_name" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/newName"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/old_text_name"
+        android:id="@+id/new_text_name"
+        android:textSize="15sp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/new_edit_name"
+        android:hint="Enter the new name"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/old_edit_name"
+        android:background="@android:color/white"
+        android:layout_toRightOf="@id/new_text_name"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/clear"
+            android:id="@+id/update_clear"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/save"
+        android:id="@+id/update_save"
+        android:layout_alignTop="@+id/update_clear"
+        android:layout_alignRight="@+id/new_edit_name"
+        android:layout_alignEnd="@+id/new_edit_name"
+        android:layout_marginRight="30dp"
+        android:layout_marginEnd="30dp" />
+
+
+</RelativeLayout>
